@@ -10,7 +10,7 @@ describe "Static pages" do
     end
 
     it "should have the base title" do
-      visit '/static_pages/home'
+      visit '/static_pages/homed'
       page.should have_selector('title',
                         :text => "Ruby on Rails Tutorial Sample App")
     end
